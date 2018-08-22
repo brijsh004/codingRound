@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ClearTrip suite " parallel="none">
+	<test name="FlightBooking test">
+		<classes>
+			<class name="unitTests.FlightBookingTest" />
+		</classes>
+	</test>
+	<test name="HotelBooking test">
+		<classes>
+			<class name="unitTests.HotelBookingTest" />
+		</classes>
+	</test>
+	<test name="SignIn test">
+		<classes>
+			<class name="unitTests.SignInTest" />
+		</classes>
+	</test>
+</suite>
+
